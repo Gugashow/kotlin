@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">kt_presentation</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="preview">preview</string>
+    <string name="selecione_uma_imagem">Selecione uma imagem</string>
+</resources>
