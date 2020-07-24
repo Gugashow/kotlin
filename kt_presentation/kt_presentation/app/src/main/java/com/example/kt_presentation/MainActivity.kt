@@ -8,25 +8,21 @@ import android.os.Build.VERSION
 import android.os.Build.VERSION_CODES
 import android.os.Bundle
 import android.provider.MediaStore
-import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import kotlinx.android.synthetic.*
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
-    companion object {
-        private val CAPTURE_IMAGE_CODE = 500;
-        private val REQUEST_PERMISSION = 501;
-        private val PICKER_IMAGE_GALLERY = 502;
-    }
+    private val CAPTURE_IMAGE_CODE = 500;
+    private val REQUEST_PERMISSION = 501;
+    private val PICKER_IMAGE_GALLERY = 502;
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        cam.setOnClickListener {
+        camera.setOnClickListener {
             takePhoto()
         }
 

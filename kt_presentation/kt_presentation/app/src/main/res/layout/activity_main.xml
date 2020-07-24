@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/cam"
+        android:id="@+id/camera"
         android:layout_width="133dp"
         android:layout_height="54dp"
         android:background="#3090FF"
